@@ -1,0 +1,14 @@
+
+server:
+  port: 6061
+  servlet:
+    context-path: /auth
+
+aj:
+  auth:
+    client:
+      admin:
+        clientId: myclient
+        clientSecret: myclient
+        scopes: admin
+        redirectUris: http://127.0.0.1:8090/login/oauth2/code/myclient
